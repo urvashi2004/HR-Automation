@@ -1,0 +1,65 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  
+  .profile-image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    height: 10vh;
+    text-align: center;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%; /* Ensure the link takes up the full width of the list item */
+    height: 100%; /* Ensure the link takes up the full height of the list item */
+    display: flex;
+    align-items: center; /* Vertically center the text inside the link */
+    justify-content: center; /* Horizontally center the text inside the link */
+  }
+  
+  .navbar li:hover {
+    background-color: #575757;
+  }
+
+  .navbar .active {
+    background-color: #959595; /* Permanent color for active link */
+  }

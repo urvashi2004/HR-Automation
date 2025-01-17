@@ -1,0 +1,105 @@
+.home {
+  padding: 20px;
+}
+
+.home h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employee-work-distribution, .project-distribution {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.employee-work-distribution h2, .project-distribution h2 {
+  margin-bottom: 10px;
+}
+
+.employee-bar-charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.employee-bar-chart {
+  margin: 20px 0;
+  height: 200px; /* Adjust the height to make the bar charts smaller */
+  width: 20vw; /* Set the width to 20vw */
+}
+
+.project-distribution {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align the pie chart vertically */
+  margin-top: 20px;
+}
+
+.project-distribution h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-dropdown {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.task-dropdown label {
+  margin-right: 10px;
+}
+
+.task-dropdown select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.pie-chart-container {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  height: 300px; /* Adjust the height to center align the pie chart vertically */
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 300px; /* Adjust the height to fit the task list in a single display */
+  overflow-y: auto; /* Add vertical scroll if needed */
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw; /* Set the width to 15vw */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.completed .status-indicator {
+  background-color: #007bff;
+}
+
+.in-progress .status-indicator {
+  background-color: #ffc107;
+}
+
+.not-started .status-indicator {
+  background-color: #dc3545;
+}
