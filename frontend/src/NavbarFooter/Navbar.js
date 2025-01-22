@@ -1,22 +1,32 @@
-import React from 'react';
+import {React, useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
-import Image from '../Profile/Image.png';
-
 function Navbar() {
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
   return (
     <div className="navbar">
-      <div className="profile-image">
-        <NavLink to="/profile" activeClassName="active">
-          <img src={Image} alt="HR Profile" />
-        </NavLink>
-      </div>
-      <ul>
-      <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-        <li><NavLink to="/employees" activeClassName="active">Employees</NavLink></li>
-        <li><NavLink to="/attendance" activeClassName="active">Attendance</NavLink></li>
-        <li><NavLink to="/payroll" activeClassName="active">Payroll</NavLink></li>
+      <ul className="navbar-list">
+        <li className="dropdown">
+          <NavLink exact to="/master-data" activeClassName="active" className="dropbtn" onClick={toggleDropdown}>
+            Master Data <span className="arrow">&#9660;</span>
+          </NavLink>
+          <div className={`dropdown-content ${dropdownOpen ? 'show' : ''}`}>
+            <NavLink to="/client-data" activeClassName="active" className="dropdown-text">Client Data</NavLink>
+            <NavLink to="/enquiry-data" activeClassName="active" className="dropdown-text">Enquiry Data</NavLink>
+            <NavLink to="/account-data" activeClassName="active" className="dropdown-text">Account Data</NavLink>
+            <NavLink to="/payroll-data" activeClassName="active" className="dropdown-text">Payroll Data</NavLink>
+            <NavLink to="/legal-data" activeClassName="active" className="dropdown-text">Legal Data</NavLink>
+          </div>
+        </li>
+        <li><NavLink to="/employees" activeClassName="active">Reports</NavLink></li>
+        <li><NavLink to="/attendance" activeClassName="active">MIS Reports</NavLink></li>
       </ul>
     </div>
   );

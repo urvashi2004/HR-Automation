@@ -1,4 +1,6 @@
 .App {
-  margin-left: 200px; /* Same width as the navbar */
+  margin-left: 10vw;
   padding: 20px;
+  background-color: #1c2228;
+  height: 100vh;
 }

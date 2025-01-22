@@ -1,0 +1,50 @@
+.account-data-page {
+    margin-left: 10vw;
+}
+
+.account-data-navbar {
+    background-color: #15191b;
+    text-align: center;
+  }
+  
+  .account-data-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .account-data-navbar li {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-data-navbar a {
+    color: white; /* Ensure link text color is white */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    height: 100%;
+  }
+  
+  .account-data-navbar a:hover {
+    background-color: #575757; /* Match the hover color from Navbar.css */
+  }
+  
+  .account-data-navbar ul .active {
+    background-color: #14533a; /* Match the active link color from Navbar.css */
+  }
+
+  .account-data-content {
+    padding: 20px;
+    background-color: #1c2228;
+    color: white;
+    justify-items: center;
+    height: 95vh;
+  }

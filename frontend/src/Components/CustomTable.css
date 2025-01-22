@@ -15,7 +15,7 @@ th, td {
     border: 1.5px solid #222;  /* Grey border */
     text-align: center;
     word-wrap: break-word; /* Ensures long words break and don't overflow */
-    color: #333333; /* Sets the text color inside the table cells */
+    color: #15191b333; /* Sets the text color inside the table cells */
 }
 
 /* Header cell styling */

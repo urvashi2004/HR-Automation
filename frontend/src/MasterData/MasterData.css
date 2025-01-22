@@ -1,0 +1,50 @@
+.master-data-page {
+  margin-left: 10vw;
+}
+
+.master-data-navbar {
+  background-color: #15191b; 
+  text-align: center;
+}
+
+.master-data-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.master-data-navbar li {
+  margin: 0; 
+  height: 100%;
+  display: flex;
+  align-items: center; 
+}
+
+.master-data-navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; 
+  height: 100%; 
+}
+
+.master-data-navbar a:hover {
+  background-color: #575757; 
+}
+
+.master-data-navbar .active {
+  background-color: #14533a; 
+}
+
+.master-data-content {
+  padding: 20px;
+  background-color: #1c2228;
+  color: white;
+  justify-items: center;
+  height: 95vh;
+}
