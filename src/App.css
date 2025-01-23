@@ -1,6 +1,10 @@
 .App {
   margin-left: 10vw;
-  padding: 20px;
   background-color: #1c2228;
   height: 100vh;
+  transition: margin-left 0.3s ease; 
+}
+
+.App.navbar-closed {
+  margin-left: 0;
 }

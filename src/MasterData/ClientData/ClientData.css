@@ -1,11 +1,11 @@
 .client-data-page {
-    margin-left: 10vw;
+    
   }
   
   .client-data-content {
     padding: 20px;
-    background-color: #1c2228;
+    
     color: white;
     justify-items: center;
-    height: 95vh;
+    ;
   }

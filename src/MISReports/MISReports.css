@@ -1,8 +1,4 @@
-.misreports-page {
-    margin-left: 10vw;
-  }
-  
-  .misreports-navbar {
+.misreports-navbar {
     background-color: #15191b; 
     text-align: center;
   }
@@ -43,8 +39,8 @@
   
   .misreports-content {
     padding: 20px;
-    background-color: #1c2228;
+    
     color: white;
     justify-items: center;
-    height: 95vh;
+    ;
   }

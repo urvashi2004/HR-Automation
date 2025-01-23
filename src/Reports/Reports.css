@@ -1,8 +1,4 @@
-.reports-page {
-    margin-left: 10vw;
-  }
-  
-  .reports-navbar {
+.reports-navbar {
     background-color: #15191b; 
     text-align: center;
   }
@@ -44,8 +40,8 @@
   
   .reports-content {
     padding: 20px;
-    background-color: #1c2228;
+    
     color: white;
     justify-items: center;
-    height: 95vh;
+    ;
   }
