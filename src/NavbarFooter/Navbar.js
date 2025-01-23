@@ -25,8 +25,8 @@ function Navbar() {
             <NavLink to="/legal-data" activeClassName="active" className="dropdown-text">Legal Data</NavLink>
           </div>
         </li>
-        <li><NavLink to="/employees" activeClassName="active">Reports</NavLink></li>
-        <li><NavLink to="/attendance" activeClassName="active">MIS Reports</NavLink></li>
+        <li><NavLink to="/reports" activeClassName="active">Reports</NavLink></li>
+        <li><NavLink to="/misreports" activeClassName="active">MIS Reports</NavLink></li>
       </ul>
     </div>
   );

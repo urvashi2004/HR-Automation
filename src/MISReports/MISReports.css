@@ -1,0 +1,50 @@
+.misreports-page {
+    margin-left: 10vw;
+  }
+  
+  .misreports-navbar {
+    background-color: #15191b; 
+    text-align: center;
+  }
+  
+  .misreports-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .misreports-navbar li {
+    margin: 0; 
+    height: 100%;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .misreports-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+  }
+  
+  .misreports-navbar a:hover {
+    background-color: #575757; 
+  }
+  
+  .misreports-navbar .active {
+    background-color: #14533a; 
+  }
+  
+  .misreports-content {
+    padding: 20px;
+    background-color: #1c2228;
+    color: white;
+    justify-items: center;
+    height: 95vh;
+  }

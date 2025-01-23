@@ -1,0 +1,51 @@
+.reports-page {
+    margin-left: 10vw;
+  }
+  
+  .reports-navbar {
+    background-color: #15191b; 
+    text-align: center;
+  }
+  
+  .reports-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .reports-navbar li {
+    margin: 0; 
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .reports-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+  }
+  
+  .reports-navbar a:hover {
+    background-color: #575757; 
+  }
+  
+  .reports-navbar .active {
+    background-color: #14533a; 
+  }
+  
+  .reports-content {
+    padding: 20px;
+    background-color: #1c2228;
+    color: white;
+    justify-items: center;
+    height: 95vh;
+  }
